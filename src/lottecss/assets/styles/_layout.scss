@@ -1,10 +1,12 @@
 body {
+  color: _color(body);
   font-family: _font(family-regular);
   font-weight: 300;
   font-size: 16px;
   padding: 0;
   margin: 0;
   width: 100%;
+  min-width: _breakpoint(step-min);
   line-height: 1.5;
 }
 

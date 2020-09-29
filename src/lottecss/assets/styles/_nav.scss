@@ -1,5 +1,8 @@
 nav {
   width: 100%;
+  a {
+    color: _color(link);
+  }
 }
 
 .nav-content {
@@ -11,4 +14,3 @@ nav li {
   display: inline;
   margin-right: 1rem;
 }
-

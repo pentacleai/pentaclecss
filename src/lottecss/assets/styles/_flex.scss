@@ -4,6 +4,10 @@
   > * {
     flex: none;
   }
+
+  *.flex-start {
+
+  }
 }
 
 .flex-align-center {
@@ -12,7 +16,7 @@
 }
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: _breakpoint(step-three)) {
   .flex-group {
     display: flex;
     flex-wrap: wrap;
