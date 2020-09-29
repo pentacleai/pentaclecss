@@ -5,7 +5,27 @@ import Layout from "../components/layout";
 class Flex extends Component {
     render() {
         return <Layout>
-            Flex
+            <h1>Flex</h1>
+            <h2>flex group</h2>
+            <article className={"flex-group"}>
+                <div className={"box"}>hello</div>
+                <div className={"box"}>hello</div>
+                <div className={"box"}>hello</div>
+            </article>
+
+            <h2>flex group + flex start</h2>
+            <article className={"flex-group flex-start"}>
+                <div className={"box"}>hello</div>
+                <div className={"box"}>hello</div>
+                <div className={"box"}>hello</div>
+            </article>
+
+            <h2>flex group + flex end</h2>
+            <article className={"flex-group flex-end"}>
+                <div className={"box"}>hello</div>
+                <div className={"box"}>hello</div>
+                <div className={"box"}>hello</div>
+            </article>
         </Layout>;
     }
 }
