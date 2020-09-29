@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Layout from "../lottecss/components/layout";
+import Layout from "../components/layout";
 
 
 class Fonts extends Component {

@@ -1,6 +1,6 @@
 {
   "name": "lottecss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple css",
   "main": "assets/styles/lotte.scss",
   "scripts": {

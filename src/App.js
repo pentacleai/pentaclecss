@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Route, HashRouter} from "react-router-dom";
-import Layout from "./lottecss/components/layout"
+import Layout from "./components/layout"
 
 import './lottecss/assets/styles/lotte.scss';
 
