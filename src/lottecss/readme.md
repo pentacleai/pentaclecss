@@ -5,5 +5,3 @@ You just need to provide 2 or 3 brand colours and some snappy content.
 
 Currently in alpha. 
 September 2020.
-
-demo site at [www.lottecss.com](www.lottecss.com)
