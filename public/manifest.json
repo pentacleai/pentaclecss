@@ -1,6 +1,6 @@
 {
   "short_name": "lottecss style guide",
-  "name": "Create React App Sample",
+  "name": "lottecss - simple responsive sass framework",
   "icons": [
     {
       "src": "favicon.ico",
