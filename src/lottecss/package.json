@@ -1,0 +1,24 @@
+{
+  "name": "lottecss",
+  "version": "1.0.0",
+  "description": "simple css",
+  "main": "assets/styles/lotte.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlottefranklin/lottecss.git"
+  },
+  "keywords": [
+    "css",
+    "lottecode",
+    "sass"
+  ],
+  "author": "lottecode",
+  "license" : "See licence in licence.md",
+  "bugs": {
+    "url": "https://github.com/charlottefranklin/lottecss/issues"
+  },
+  "homepage": "https://github.com/charlottefranklin/lottecss#readme"
+}
