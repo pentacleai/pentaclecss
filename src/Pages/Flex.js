@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import Layout from "../components/layout";
-import Gist from "react-gist";
-
 
 class Flex extends Component {
     render() {
