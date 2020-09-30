@@ -3,3 +3,12 @@
   border-radius: 1rem;
   padding: 2rem;
 }
+
+@media only screen and (max-width: _breakpoint(step-two)) {
+  .box {
+    margin-top: 1rem;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
