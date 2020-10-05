@@ -1,11 +1,12 @@
 header {
   width: 100%;
-  background-color: _color(primary);
+  background-color: _color(white);
+  border-bottom: 1px solid _color(primary);
   font-size: 1.25rem;
 
   a {
-    color: white;
-    font-family: _font(family-semibold);
+    color: _color(primary);
+    font-family: _font(family-regular);
     text-decoration: none;
   }
 }
