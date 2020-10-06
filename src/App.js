@@ -28,7 +28,7 @@ class App extends Component {
 function Main() {
     return <div>
         <Layout>
-            <h2>Hello</h2>
+            <h1>Hello</h1>
             <article>
                 <p>Lotte CSS is super simple css framework written in sass.</p>
                 <p>It's designed to provide a very clean layout that just works.</p>
