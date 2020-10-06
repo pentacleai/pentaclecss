@@ -15,11 +15,11 @@ class Fonts extends Component {
                         fonts</a>.</p>
             </article>
             <article className={"margin-top-2"}>
-                <p class={"text-bold"}>Fira Code Bold</p>
-                <p class={"text-semibold"}>Fira Code SemiBold</p>
-                <p class={"text-medium"}>Fira Code Medium</p>
-                <p class={"text-regular"}>Fira Code Regular</p>
-                <p class={"text-light"}>Fira Code Light</p>
+                <p className={"text-bold"}>Fira Code Bold</p>
+                <p className={"text-semibold"}>Fira Code SemiBold</p>
+                <p className={"text-medium"}>Fira Code Medium</p>
+                <p className={"text-regular"}>Fira Code Regular</p>
+                <p className={"text-light"}>Fira Code Light</p>
             </article>
         </Layout>;
     }
