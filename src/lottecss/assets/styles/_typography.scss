@@ -8,16 +8,28 @@ h1 {
   font-size: 1.25rem;
   margin: 0 auto;
   max-width: 80rem;
+  padding-bottom: 1rem;
 }
 
 h2 {
   font-family: _font(family-light);
-  font-size: .95rem;
+  font-size: 1rem;
   margin: 0 auto;
   max-width: 80rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
+
+h3 {
+  font-family: _font(family-bold);
+  font-size: .9rem;
+  margin: 0 auto;
+  max-width: 80rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+
+
 
 p, li, em {
   font-size: 0.75rem;
@@ -29,3 +41,18 @@ main {
   }
 }
 
+.text-bold {
+  font-family: _font(family-bold);
+}
+.text-semibold {
+  font-family: _font(family-semibold);
+}
+.text-regular {
+  font-family: _font(family-regular);
+}
+.text-medium {
+  font-family: _font(family-medium);
+}
+.text-light {
+  font-family: _font(family-light);
+}

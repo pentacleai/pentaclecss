@@ -11,7 +11,7 @@ const Layout = ({children}) => {
             <main>{children}</main>
             <footer>
                 <article className={"footer-content"}>
-                    © 2019 - {new Date().getFullYear()} Lotte CSS
+                    © 2019 - {new Date().getFullYear()} <a href={"http://twitter.com/lottecode"}>Lotte Code</a>
                 </article>
             </footer>
         </>

@@ -48,10 +48,9 @@
 
       > * {
         flex: none;
-        margin-left: 1rem;
 
         &:last-child {
-          margin-left: 0;
+          margin-right: 0;
         }
       }
     }

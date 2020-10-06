@@ -5,7 +5,40 @@ import Layout from "../components/layout";
 class LayoutPage extends Component {
     render() {
         return <Layout>
-            Layout
+            <h1>Layout</h1>
+            <p>You can find the repo for this style guide, which includes react page components at <a
+                href={"https://github.com/charlottefranklin/lottecss"}>Github</a></p>
+            <h2>Page structure guidelines</h2>
+            <em>Gists in development arriving soon - October 2020</em>
+            <ul>
+                <li>html</li>
+                <ul>
+                    <li>body</li>
+                    <ul>
+                        <li>header</li>
+                        <li>nav</li>
+                        <li>main</li>
+                        <ul>
+                            <li>h1</li>
+                            <li>section</li>
+                            <ul>
+                                <li>article</li>
+                                <li>article</li>
+                                <li>article</li>
+                            </ul>
+                            <li>section</li>
+                            <ul>
+                                <li>article</li>
+                                <li>article</li>
+                            </ul>
+                        </ul>
+                        <li>footer</li>
+                    </ul>
+                </ul>
+            </ul>
+            <p>More info at Mozilla's <a
+                href={"https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"}>document
+                structure guidelines</a> and their <a href={"https://developer.mozilla.org/en-US/docs/Web/HTML/Element"}>HTML elements reference</a>.</p>
         </Layout>;
     }
 }
