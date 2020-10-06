@@ -9,7 +9,6 @@ class LayoutPage extends Component {
             <p>You can find the repo for this style guide, which includes react page components at <a
                 href={"https://github.com/charlottefranklin/lottecss"}>Github</a></p>
             <h2>Page structure guidelines</h2>
-            <em>Gists in development arriving soon - October 2020</em>
             <ul>
                 <li>html</li>
                 <ul>
@@ -36,9 +35,12 @@ class LayoutPage extends Component {
                     </ul>
                 </ul>
             </ul>
-            <p>More info at Mozilla's <a
-                href={"https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"}>document
-                structure guidelines</a> and their <a href={"https://developer.mozilla.org/en-US/docs/Web/HTML/Element"}>HTML elements reference</a>.</p>
+            <article className={"margin-top-2"}>
+                <p>More info at Mozilla's <a
+                    href={"https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"}>document
+                    structure guidelines</a> and their <a
+                    href={"https://developer.mozilla.org/en-US/docs/Web/HTML/Element"}>HTML elements reference</a>.</p>
+            </article>
         </Layout>;
     }
 }
