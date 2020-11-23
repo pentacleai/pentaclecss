@@ -13,3 +13,10 @@
 @function _size($keys...) {
   @return val($size, $keys...);
 }
+
+@function val($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
