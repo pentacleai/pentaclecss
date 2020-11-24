@@ -11,10 +11,13 @@ November 2020.
 ###Use
 
 $ yarn add sass
+
 $ yarn add lottecss
 
 ####Add the following line of code to App.scss
 @import '~lottecss/assets/styles/lotte.scss';
+
+Note the @import will be migrated to the new Sass Dart @use in the near future
 
 ####In App.js
 import './App.scss';
