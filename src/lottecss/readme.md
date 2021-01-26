@@ -13,18 +13,29 @@ $ yarn add sass
 
 $ yarn add lottecss
 
+
 ####Add the following line of code to App.scss
+
 @import '~lottecss/assets/styles/lotte.scss';
 
+
 ####In App.js
+
 import './App.scss';
 
 
 ##What's on the board
+
 Form elements
+
 Switch to Sass Dart @use instead of @import
+
 Dark mode
+
 Colour themes
+
 Drop-shadows and hover options for box
+
 Gradient background
+
 "How to UX" article
