@@ -1,6 +1,6 @@
 {
   "name": "lottecss",
-  "version": "1.0.18",
+  "version": "1.0.17",
   "description": "World's most boring css library",
   "main": "assets/styles/lotte.scss",
   "scripts": {
