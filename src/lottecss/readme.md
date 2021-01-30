@@ -2,12 +2,7 @@
 
 A super simple css framework written in sass.
 
-Designed to provide a very clean layout that just works.
-
-Currently in alpha. 
-
-February 2021.
-
+Designed to provide a clean, lightweight layout that just works.
 
 
 ## Use
@@ -34,7 +29,7 @@ import './App.scss';
 
 Form elements
 
-Switch to Sass Dart @use instead of @import
+Gists so you can copy the code from the style guide
 
 Dark mode
 
@@ -44,5 +39,7 @@ Drop-shadows and hover options for box
 
 Gradient background
 
-"How to UX" article
+Basic guide to design
+
+Switch to Sass Dart @use instead of @import
 

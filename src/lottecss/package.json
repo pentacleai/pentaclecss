@@ -1,6 +1,6 @@
 {
   "name": "lottecss",
-  "version": "1.0.16",
+  "version": "1.0.18",
   "description": "simple css",
   "main": "assets/styles/lotte.scss",
   "scripts": {
@@ -18,10 +18,10 @@
     "ui",
     "responsive"
   ],
-  "author": "Charlotte Franklin <charlotte@lottecode.com> (www.lottecode.com)",
+  "author": "Lotte Code <hello@lottecode.com> (www.lottecode.com)",
   "license" : "See licence in licence.md",
   "bugs": {
-    "url": "https://github.com/charlottefranklin/lottecss/issues"
+    "url": "https://github.com/lottecode/lottecss/issues"
   },
   "homepage": "https://www.lottecss.com",
   "devDependencies": {
