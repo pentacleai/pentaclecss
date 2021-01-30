@@ -26,19 +26,29 @@ class App extends Component {
 }
 
 function Main() {
-    return <div>
+    return <>
         <Layout>
             <h1>Hello</h1>
             <article>
                 <p>Lotte CSS is super simple css framework written in sass.</p>
-                <p>It's designed to provide a very clean layout that just works.</p>
-                <p>You just need to provide 2 or 3 brand colours and some snappy content.</p>
+                <p>It's designed to provide a clean, lightweight layout that just works.</p>
+                <p>Get the <a href={"https://www.npmjs.com/package/lottecss"}>npm</a></p>
             </article>
             <article className={"margin-top-2"}>
-                <em>Currently in alpha - there will be gists soon. October 2020.</em>
+                <h2>Coming up</h2>
+                <ul>
+                    <li>Form elements</li>
+                    <li>Gists so you can copy the code from the style guide</li>
+                    <li>Dark mode</li>
+                    <li>Colour themes</li>
+                    <li>Drop-shadows and hover options for box</li>
+                    <li>Gradient background</li>
+                    <li>Basic guide to design</li>
+                    <li>Switch to Sass Dart @use instead of @import</li>
+                </ul>
             </article>
         </Layout>
-    </div>
+    </>
 }
 
 export default App;

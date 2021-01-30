@@ -11,7 +11,7 @@ const Layout = ({children}) => {
             <main>{children}</main>
             <footer>
                 <article className={"footer-content"}>
-                    © 2019 - {new Date().getFullYear()} <a href={"http://www.lottecode.com"}>Lotte Code</a>
+                    © 2019 - {new Date().getFullYear()} <a href={"https://github.com/lottecode"}>Lotte Code</a> |  <a href={"https://www.npmjs.com/package/lottecss"}>npmjs</a>
                 </article>
             </footer>
         </>
