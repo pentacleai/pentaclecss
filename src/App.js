@@ -35,7 +35,7 @@ function Main() {
                 <p>Get the <a href={"https://www.npmjs.com/package/lottecss"}>npm</a></p>
             </article>
             <article className={"margin-top-2"}>
-                <h2>Coming up</h2>
+                <h2>Roadmap</h2>
                 <ul>
                     <li>Form elements</li>
                     <li>Gists so you can copy the code from the style guide</li>
