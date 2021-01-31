@@ -2,7 +2,7 @@
 
 A super simple css framework written in sass.
 
-Designed to provide a very clean layout that just works.
+Designed to provide a clean layout with as little code as possible, that just works.
 
 Fira font is included and self-hosted, hence the file size.
 
