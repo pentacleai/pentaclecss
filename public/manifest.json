@@ -1,6 +1,6 @@
 {
-  "short_name": "lottecss style guide",
-  "name": "lottecss - simple responsive sass framework",
+  "short_name": "pentacle css style guide",
+  "name": "pentacle-css - simple responsive css library",
   "icons": [
     {
       "src": "favicon.ico",

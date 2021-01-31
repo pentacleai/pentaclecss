@@ -5,7 +5,7 @@ class Header extends Component {
     render() {
         return <header>
             <div className="header-content">
-                <Link to="/">Lotte CSS</Link>
+                <Link to="/">Pentacle CSS</Link>
             </div>
         </header>
     }

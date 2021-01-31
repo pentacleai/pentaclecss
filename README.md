@@ -14,13 +14,13 @@ February 2021.
 
 $ yarn add sass
 
-$ yarn add lottecss
+$ yarn add pentacle-css
 
 
 
 ### Add the following line of code to App.scss
 
-@import '~lottecss/assets/styles/lotte.scss';
+@import '~pentacle-css/assets/styles/pentacle.scss';
 
 
 

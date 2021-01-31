@@ -30,9 +30,9 @@ function Main() {
         <Layout>
             <h1>Hello</h1>
             <article>
-                <p>Lotte CSS is super simple css framework written in sass.</p>
+                <p>Pentacle CSS is super simple css library written in sass.</p>
                 <p>It's designed to provide a clean, lightweight layout that just works.</p>
-                <p>Get the <a href={"https://www.npmjs.com/package/lottecss"}>npm</a></p>
+                <p>Get the <a href={"https://www.npmjs.com/package/pentacle-css"}>npm</a></p>
             </article>
             <article className={"margin-top-2"}>
                 <h2>Roadmap</h2>
