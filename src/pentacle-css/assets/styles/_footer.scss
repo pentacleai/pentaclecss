@@ -1,0 +1,12 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: _color(footer-bg);
+  width: 100%;
+}
+
+.footer-content {
+  font-size: .85rem;
+  color: _color(footer-txt);
+  padding: 2rem;
+}

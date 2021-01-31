@@ -1,0 +1,43 @@
+
+$font: (
+        family-light:	       ('fira-light', arial, roboto, Helvetica, sans-serif),
+        family-regular:	       ('fira-regular', arial, roboto, Helvetica, sans-serif),
+        family-medium:	       ('fira-medium', arial, roboto, Helvetica, sans-serif),
+        family-semibold:       ('fira-semibold', arial, roboto, Helvetica, sans-serif),
+        family-bold:           ('fira-bold', arial, roboto, Helvetica, sans-serif),
+        material-icons:        ('material-icons'),
+);
+
+$size: (
+        default:               1rem,
+        medium:                1.25rem
+);
+
+$breakpoint: (
+        step-min:              25rem,
+        step-one:              30rem,
+        step-two:              50rem,
+        step-three:            62rem,
+        step-max:              80rem
+);
+
+$color: (
+        primary:               rgb(32,32,32),
+        secondary:             rgb(96,96,96),
+        tertiary:              rgb(192,192,192),
+        bg:                    rgb(230,230,230),
+
+        heading-1:             rgb(76,0,153),
+        heading-2:             rgb(76,0,153),
+        link:                  rgb(127,0,255),
+        body-txt:              rgb(50,50,50),
+        footer-bg:             rgb(240,240,255),
+        footer-txt:            rgb(32,32,32),
+
+        border-dark:           rgb(76,0,153),
+        border-light:          rgb(229,204,225),
+
+        white:                 rgb(255,255,255),
+);
+
+
