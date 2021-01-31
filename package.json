@@ -1,8 +1,8 @@
 {
-  "name": "lottecss-style-guide",
+  "name": "pentacle-css-style-guide",
   "version": "1.0.0",
   "private": false,
-  "homepage": "http://www.lottecss.com",
+  "homepage": "http://www.pentacle.ai",
   "dependencies": {
     "@babel/runtime": "^7.8.3",
     "@testing-library/jest-dom": "^4.2.4",

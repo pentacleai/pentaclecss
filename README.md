@@ -1,4 +1,4 @@
-# Lotte CSS 
+# pentacle css 
 
 A super simple css framework written in sass.
 
@@ -34,7 +34,7 @@ import './App.scss';
 
 Form elements
 
-Switch to Sass Dart @use instead of @import
+Native css version
 
 Dark mode
 
@@ -45,4 +45,3 @@ Drop-shadows and hover options for box
 Gradient background
 
 "How to UX" article
-
