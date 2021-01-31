@@ -4,9 +4,7 @@ A super simple css framework written in sass.
 
 Designed to provide a very clean layout that just works.
 
-Currently in alpha. 
-
-February 2021.
+Fira font is included and self-hosted, hence the file size.
 
 
 

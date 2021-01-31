@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Route, HashRouter} from "react-router-dom";
 import Layout from "./components/layout";
 
-import './pentacle-css/assets/styles/lotte.scss';
+import './pentacle-css';
 import Box from "./Pages/Box";
 import Flex from "./Pages/Flex";
 import Typography from "./Pages/Typography";
