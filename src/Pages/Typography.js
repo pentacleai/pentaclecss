@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Layout from "../components/layout";
+import Gist from "../components/gist";
 
 
 class Typography extends Component {
@@ -10,6 +11,8 @@ class Typography extends Component {
             <h3>Heading 3</h3>
             <p>Paragraph</p>
             <em>Emphasis</em>
+            <Gist gist="7409863fdf5e876d15419b22485e3ade" />
+
         </Layout>;
     }
 }

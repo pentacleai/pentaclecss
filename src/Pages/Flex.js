@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Layout from "../components/layout";
+import Gist from "../components/gist";
 
 class Flex extends Component {
     render() {
@@ -32,6 +33,8 @@ class Flex extends Component {
                     <div className={"box"}><p>Hello</p></div>
                 </article>
             </section>
+
+            <Gist gist="8f2151ca1d0f5aab421a23fc6c5c0b6c" />
 
         </Layout>;
     }

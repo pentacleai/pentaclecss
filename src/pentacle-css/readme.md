@@ -28,18 +28,6 @@ import './App.scss';
 
 
 
-## What's on the board
+## Roadmap
 
-Form elements
-
-Native css version
-
-Dark mode
-
-Colour themes
-
-Drop-shadows and hover options for box
-
-Gradient background
-
-"How to UX" article
+*[trello board] (https://trello.com/b/3ZPKFldK/pentacle-css)*

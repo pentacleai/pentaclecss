@@ -1,6 +1,6 @@
 {
   "name": "pentacle-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pentacle css library written in sass",
   "main": "assets/styles/pentacle.scss",
   "scripts": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/pentacleai/pentacle-css"
   },
-  "homepage": "https://www.pentacle.ai",
+  "homepage": "css.pentacle.ai",
   "devDependencies": {
     "sass": "^1.29.0"
   }
