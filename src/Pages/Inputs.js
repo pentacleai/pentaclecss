@@ -6,6 +6,7 @@ class Inputs extends Component {
     render() {
         return <Layout>
             <h1>Inputs</h1>
+            <p>TODO styling</p>
             <article>
                 <h2>Buttons</h2>
                 <button className={"primary"}>Primary button</button>
