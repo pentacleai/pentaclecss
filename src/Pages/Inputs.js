@@ -10,15 +10,19 @@ class Inputs extends Component {
             <article>
                 <h2>Buttons</h2>
                 <button>Button no class</button>
-                <button className={"primary"}>Primary button</button>
-                <button className={"secondary"}>Secondary button</button>
-                <button className={"cancel"}>Cancel button</button>
-                <button className={"delete"}>Delete button</button>
+                <button className={"primary"}>Primary</button>
+                <button className={"secondary"}>Secondary</button>
+                <button className={"cancel"}>Cancel</button>
+                <button className={"delete"}>Delete</button>
                 <Gist gist="0993d5c23318d2aa6bd9e2f1a32d3765"/>
             </article>
             <article>
                 <h2>Checkbox</h2>
-                <input type="checkbox"/>
+                <fieldset>
+                    <label><input type="checkbox"/>Cats</label>
+                    <label><input type="checkbox"/>Dogs</label>
+                    <label><input type="checkbox"/>Rabbits</label>
+                </fieldset>
                 <Gist gist="ae3f25050f0d04bfef0ca2db8b7f30dc"/>
             </article>
             <article>

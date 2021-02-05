@@ -1,0 +1,13 @@
+fieldset {
+  border: none;
+  padding: 0;
+  label {
+    border: 1px solid _color(border-dark);
+    border-radius: 1.5rem;
+    font-size: _font(size-default);
+    padding: .5rem 1rem;
+  }
+  label + label {
+    margin-left: .75rem;
+  }
+}
