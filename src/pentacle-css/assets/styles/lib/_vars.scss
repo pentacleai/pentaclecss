@@ -1,4 +1,6 @@
 
+
+
 $font: (
         family-light:	       ('fira-light', arial, roboto, Helvetica, sans-serif),
         family-regular:	       ('fira-regular', arial, roboto, Helvetica, sans-serif),
@@ -26,11 +28,13 @@ $color: (
         secondary:             rgb(96,96,96),
         tertiary:              rgb(192,192,192),
         bg:                    rgb(230,230,230),
+        bg-button:             rgba(127,0,255,.5),
 
         heading-1:             rgb(76,0,153),
         heading-2:             rgb(76,0,153),
         link:                  rgb(127,0,255),
-        body-txt:              rgb(50,50,50),
+        body-text:             rgb(50,50,50),
+        body-text-inverse:     rgb(242,241,242),
         footer-bg:             rgb(240,240,255),
         footer-txt:            rgb(32,32,32),
 
@@ -38,6 +42,6 @@ $color: (
         border-light:          rgb(229,204,225),
 
         white:                 rgb(255,255,255),
+        white-50:              rgb(230,230,230),
+        transparent:           transparent,
 );
-
-

@@ -1,4 +1,5 @@
 html body {
-  font-family: "fira-light", "Courier New", arial, Helvetica, sans-serif;
+  color: _color(body-text);
+  font-family: _font(family-light);
   font-size: 16px;
 }
