@@ -6,9 +6,10 @@ class Inputs extends Component {
     render() {
         return <Layout>
             <h1>Inputs</h1>
-            <p>TODO styling</p>
+            <p class={"describe"}>This page is WIP</p>
             <article>
                 <h2>Buttons</h2>
+                <button>Button no class</button>
                 <button className={"primary"}>Primary button</button>
                 <button className={"secondary"}>Secondary button</button>
                 <button className={"cancel"}>Cancel button</button>

@@ -28,7 +28,11 @@ $color: (
         secondary:             rgb(96,96,96),
         tertiary:              rgb(192,192,192),
         bg:                    rgb(230,230,230),
-        bg-button:             rgba(127,0,255,.5),
+        bg-describe:           rgba(127,0,255,.05),
+
+        button-primary:        rgba(127,0,255,.75),
+        button-secondary:      rgba(230,179,255,.5),
+        button-delete:         rgba(255,51,85, 1),
 
         heading-1:             rgb(76,0,153),
         heading-2:             rgb(76,0,153),
@@ -42,6 +46,6 @@ $color: (
         border-light:          rgb(229,204,225),
 
         white:                 rgb(255,255,255),
-        white-50:              rgb(230,230,230),
+        white-50:              rgb(240,240,240),
         transparent:           transparent,
 );
