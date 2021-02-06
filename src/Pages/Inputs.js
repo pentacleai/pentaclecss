@@ -45,9 +45,9 @@ class Inputs extends Component {
                 <h2>Radio</h2>
                 <fieldset>
                     <legend>Favourite pet</legend>
-                    <input type="radio" id="cat" name="pet" value="cat"/><label htmlFor="cat">Cat</label>
-                    <input type="radio" id="cat" name="pet" value="dog"/><label htmlFor="dog">Dog</label>
-                    <input type="radio" id="cat" name="pet" value="rabbit"/><label htmlFor="rabbit">Rabbit</label>
+                    <label htmlFor="cat"><input type="radio" id="cat" name="pet" value="cat"/>Cat</label>
+                    <label htmlFor="dog"><input type="radio" id="cat" name="pet" value="dog"/>Dog</label>
+                    <label htmlFor="rabbit"><input type="radio" id="cat" name="pet" value="rabbit"/>Rabbit</label>
                 </fieldset>
                 <Gist gist="d5911d3362321f8e1c01503cacbac052"/>
             </article>

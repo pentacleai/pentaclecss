@@ -1,12 +1,16 @@
 fieldset {
   border: none;
   padding: 0;
+
   label {
-    border: 1px solid _color(border-dark);
+    background-color: _color(bg-input);
+    color: _color(body-text);
     border-radius: 1.5rem;
-    font-size: _font(size-default);
+    font-family: _font(family-regular);
+    font-size: _size(regular);
     padding: .5rem 1rem;
   }
+
   label + label {
     margin-left: .75rem;
   }

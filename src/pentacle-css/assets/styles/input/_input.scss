@@ -1,0 +1,23 @@
+input {
+  font-size: _size(regular);
+
+  &:-moz-focusring {
+    outline: 3px solid lightblue;
+  }
+
+  &[type=checkbox],
+  &[type=radio] {
+    padding: 0;
+    &:-moz-focusring {
+      outline:0;
+    }
+  }
+
+  &[type=radio] {
+    -webkit-appearance: radio;
+  }
+
+  &[type=checkbox] {
+    -webkit-appearance: checkbox;
+  }
+}

@@ -2,8 +2,8 @@ button {
   padding: .5rem 1rem;
   border: 2px solid _color(transparent);
   border-radius: 1.5rem;
+  font-size: _size(regular);
   font-family: _font(family-medium);
-  font-size: _font(size-default);
   &.primary {
     background-color: _color(button-primary);
     color: _color(body-text-inverse);

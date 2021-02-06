@@ -1,0 +1,8 @@
+label {
+  font-family: _font(family-regular);
+  font-size: _size(regular);
+}
+
+label + label {
+  margin-left: .75rem;
+}
