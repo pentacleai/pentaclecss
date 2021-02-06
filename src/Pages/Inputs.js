@@ -28,17 +28,16 @@ class Inputs extends Component {
             </article>
             <article>
                 <h2>Date</h2>
-                <label htmlFor="birthday">Date</label>
+                <label htmlFor="birthday">Your birthday</label>
                 <input type="date" id="birthday" name="birthday"
-                       value="2018-07-22"
-                       min="2018-01-01" max="2018-12-31"/>
+                       value="1986-02-23"/>
                 <Gist gist="c901d39a498e089cc97d8aa6f9384804"/>
             </article>
             <article>
                 <h2>File</h2>
-                <label htmlFor="avatar">Upload avatar</label>
+                <label htmlFor="avatar">Upload a file</label>
                 <input type="file"
-                       id="avatar" name="avatar"
+                       id="file" name="file"
                        accept="image/png, image/jpeg"/>
                 <Gist gist="7ae1efd939001d477ec4558453fde49a"/>
             </article>
