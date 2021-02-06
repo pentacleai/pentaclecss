@@ -1,6 +1,7 @@
-label {
+label, legend {
   font-family: _font(family-regular);
   font-size: _size(regular);
+  padding-bottom: 1rem;
 }
 
 label + label {

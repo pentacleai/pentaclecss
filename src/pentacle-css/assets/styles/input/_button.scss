@@ -8,10 +8,15 @@ button {
     background-color: _color(button-primary);
     color: _color(body-text-inverse);
   }
+  &.primary-gradient {
+    background: _color(bg-fancy-lilac);
+    color: _color(body-text-inverse);
+  }
   &.secondary {
     background-color: _color(button-secondary);
     color: _color(body-text);
   }
+
   &.cancel {
     color: _color(body-text);
   }

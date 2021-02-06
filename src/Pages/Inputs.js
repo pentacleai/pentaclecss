@@ -11,6 +11,7 @@ class Inputs extends Component {
                 <h2>Buttons</h2>
                 <button>Button no class</button>
                 <button className={"primary"}>Primary</button>
+                <button className={"primary-gradient"}>Gradient primary</button>
                 <button className={"secondary"}>Secondary</button>
                 <button className={"cancel"}>Cancel</button>
                 <button className={"delete"}>Delete</button>
@@ -19,9 +20,9 @@ class Inputs extends Component {
             <article>
                 <h2>Checkbox</h2>
                 <fieldset>
-                    <label><input type="checkbox"/>Cats</label>
-                    <label><input type="checkbox"/>Dogs</label>
-                    <label><input type="checkbox"/>Rabbits</label>
+                    <label><input type="checkbox"/><span>Cats</span></label>
+                    <label><input type="checkbox"/><span>Dogs</span></label>
+                    <label><input type="checkbox"/><span>Rabbits</span></label>
                 </fieldset>
                 <Gist gist="ae3f25050f0d04bfef0ca2db8b7f30dc"/>
             </article>
@@ -45,9 +46,9 @@ class Inputs extends Component {
                 <h2>Radio</h2>
                 <fieldset>
                     <legend>Favourite pet</legend>
-                    <label htmlFor="cat"><input type="radio" id="cat" name="pet" value="cat"/>Cat</label>
-                    <label htmlFor="dog"><input type="radio" id="cat" name="pet" value="dog"/>Dog</label>
-                    <label htmlFor="rabbit"><input type="radio" id="cat" name="pet" value="rabbit"/>Rabbit</label>
+                    <label htmlFor="cat"><input type="radio" id="cat" name="pet" value="cat"/><span>Cat</span></label>
+                    <label htmlFor="dog"><input type="radio" id="dog" name="pet" value="dog"/><span>Dog</span></label>
+                    <label htmlFor="rabbit"><input type="radio" id="rabbit" name="pet" value="rabbit"/><span>Rabbit</span></label>
                 </fieldset>
                 <Gist gist="d5911d3362321f8e1c01503cacbac052"/>
             </article>

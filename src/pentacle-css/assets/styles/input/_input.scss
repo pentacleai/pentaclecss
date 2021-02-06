@@ -8,6 +8,9 @@ input {
   &[type=checkbox],
   &[type=radio] {
     padding: 0;
+    + span {
+      margin-left: .5rem;
+    }
     &:-moz-focusring {
       outline:0;
     }
