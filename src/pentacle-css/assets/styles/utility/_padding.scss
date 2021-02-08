@@ -1,3 +1,7 @@
+.padding-0 {
+  padding: 0;
+}
+
 .padding-1 {
   padding: 1rem;
 }
@@ -8,6 +12,11 @@
 
 .padding-top-1 {
   padding-top: 1rem;
+}
+
+.padding-x-0 {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .padding-y-sm {
@@ -23,4 +32,12 @@
 .padding-y-lg {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.padding-left-sm {
+  padding-left: .5rem;
+}
+
+.padding-right-sm {
+  padding-right: .5rem;
 }

@@ -1,17 +1,21 @@
 button {
-  padding: .5rem 1rem;
+  padding: .25rem .5rem;
   border: 2px solid _color(transparent);
   border-radius: 1.5rem;
-  font-size: _size(regular);
-  font-family: _font(family-medium);
+  font-size: .75rem;
+  font-family: _font(family-regular);
+  letter-spacing: .0125rem;
+
   &.primary {
     background-color: _color(button-primary);
     color: _color(body-text-inverse);
   }
+
   &.primary-gradient {
     background: _color(bg-fancy-lilac);
     color: _color(body-text-inverse);
   }
+
   &.secondary {
     background-color: _color(button-secondary);
     color: _color(body-text);
