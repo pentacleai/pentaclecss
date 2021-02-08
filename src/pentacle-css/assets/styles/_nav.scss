@@ -1,15 +1,23 @@
 nav {
   box-sizing: border-box;
-  a {
+
+  ul li a {
     color: _color(link);
   }
+
   &.full-width {
     width: 100%;
   }
+
+  ul.secondary li a {
+    color: #00B31E;
+  }
+
   li {
     list-style: none;
     display: inline;
     margin-right: 1rem;
+
     &:last-child {
       margin-right: 0;
     }
