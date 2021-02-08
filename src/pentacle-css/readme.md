@@ -1,7 +1,5 @@
 # pentacle css 
 
-version: 1.0.6
-
 A super simple css framework written in sass.
 
 Designed to provide a clean layout with as little code as possible, that just works.
