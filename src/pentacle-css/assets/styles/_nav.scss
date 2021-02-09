@@ -1,5 +1,6 @@
 nav {
   box-sizing: border-box;
+  line-height: 1rem;
 
   ul li a {
     color: _color(link);
@@ -9,8 +10,8 @@ nav {
     width: 100%;
   }
 
-  ul.secondary li a {
-    color: #00B31E;
+  ul.secondary {
+    margin-left: 2rem;
   }
 
   li {
