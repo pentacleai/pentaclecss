@@ -17,10 +17,10 @@ nav {
   li {
     list-style: none;
     display: inline;
-    margin-right: 2.5rem;
+    margin-right: 2.5rem!important;
 
-    &:last-child {
-      margin-right: 0;
+    &:last-of-type {
+      margin-right: 0!important;
     }
   }
 }

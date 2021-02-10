@@ -7,7 +7,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-family: _font(family-medium);
-  font-size: .75rem;
+  font-size: 1.25rem;
   //padding-top: .5rem;
   //padding-bottom: 1rem;
 }
@@ -20,13 +20,20 @@ h2 {
 }
 
 h3 {
-  font-family: _font(family-bold);
-  font-size: .9rem;
+  font-family: _font(family-medium);
+  font-size: .825rem;
   padding-top: 1rem;
   padding-bottom: .5rem;
 }
 
-table, p, li, em {
+h4 {
+  font-family: _font(family-regular);
+  font-size: .75rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+
+table, p, li, em, div {
   font-size: .75rem;
   margin: 0;
   padding: 0;

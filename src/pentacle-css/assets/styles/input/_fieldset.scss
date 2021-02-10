@@ -1,6 +1,8 @@
 fieldset {
   border: none;
   padding: 0;
+  margin-bottom: 2rem;
+  display: block;
 
   label {
     background-color: _color(bg-input);
