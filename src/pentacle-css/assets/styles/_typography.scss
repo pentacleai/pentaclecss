@@ -33,8 +33,8 @@ h4 {
   padding-bottom: .5rem;
 }
 
-table, p, li, em, div {
-  font-size: .75rem;
+table, p, li, em, div, input, select, label, button {
+  font-size: _font(size-regular);
   margin: 0;
   padding: 0;
 }
