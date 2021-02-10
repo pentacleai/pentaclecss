@@ -7,7 +7,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-family: _font(family-medium);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   //padding-top: .5rem;
   //padding-bottom: 1rem;
 }
@@ -33,7 +33,7 @@ h4 {
   padding-bottom: .5rem;
 }
 
-table, p, li, em, div, input, select, label, button {
+table, p, li, em, div, input, select {
   font-size: _font(size-regular);
   margin: 0;
   padding: 0;
