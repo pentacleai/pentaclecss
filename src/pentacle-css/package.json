@@ -1,6 +1,6 @@
 {
   "name": "pentacle-css",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Pentacle css library written in sass",
   "main": "assets/styles/pentacle.scss",
   "scripts": {
