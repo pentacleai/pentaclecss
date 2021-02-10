@@ -1,10 +1,10 @@
 button {
   padding: .5rem 1rem;
-  border: 2px solid _color(transparent);
   border-radius: 1.5rem;
   font-size: .75rem;
   font-family: _font(family-regular);
   letter-spacing: .0125rem;
+  border: none;
 
   &.primary {
     background-color: _color(button-primary);

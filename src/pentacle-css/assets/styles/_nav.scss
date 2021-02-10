@@ -11,7 +11,7 @@ nav {
   }
 
   ul.secondary {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
   }
 
   li {
@@ -19,8 +19,16 @@ nav {
     display: inline;
     margin-right: 2.5rem!important;
 
+
+    a {
+      border-radius: 2rem;
+      background-color: _color(bg-input);
+      padding: .5rem 1.5rem;
+    }
+
     &:last-of-type {
       margin-right: 0!important;
+      background-color: transparent;
     }
   }
 }

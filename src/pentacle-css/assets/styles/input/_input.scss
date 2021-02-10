@@ -5,6 +5,10 @@ input {
     outline: 3px solid lightblue;
   }
 
+  &[type=number] + select {
+    margin-left: 1rem;
+  }
+
   &[type=checkbox],
   &[type=radio] {
     padding: 0;
