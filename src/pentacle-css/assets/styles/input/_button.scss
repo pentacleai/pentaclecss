@@ -9,24 +9,45 @@ button {
   &.primary {
     background-color: _color(button-primary);
     color: _color(body-text);
+
+    &:hover {
+      background-color: _color(button-primary-hover);
+    }
   }
 
   &.primary-gradient {
     background: _color(bg-fancy-lilac);
     color: _color(body-text-inverse);
+
+    &:hover {
+      background-color: _color(button-gradient-hover);
+    }
   }
 
   &.secondary {
     background-color: _color(button-secondary);
     color: _color(body-text);
+
+    &:hover {
+      background-color: _color(button-secondary-hover);
+    }
   }
 
   &.cancel {
     color: _color(body-text);
+
+    &:hover {
+      background-color: _color(button-cancel-hover);
+    }
   }
+
   &.delete {
     background-color: _color(button-delete);
     color: _color(body-text-inverse);
+
+    &:hover {
+      background-color: _color(button-delete-hover);
+    }
   }
 }
 
