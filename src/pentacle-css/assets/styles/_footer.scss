@@ -4,6 +4,7 @@ footer {
   background-color: _color(footer-bg);
   border-top: 1px solid _color(border-dark);
   width: 100%;
+  color: _color(footer-text);
 }
 
 .footer-content {
@@ -11,3 +12,5 @@ footer {
   color: _color(footer-txt);
   padding: 1rem 2rem;
 }
+
+

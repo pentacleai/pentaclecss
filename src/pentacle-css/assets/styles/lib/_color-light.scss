@@ -1,30 +1,5 @@
-$font: (
-        family-light:	       ('fira-light', arial, roboto, Helvetica, sans-serif),
-        family-regular:	       ('fira-regular', arial, roboto, Helvetica, sans-serif),
-        family-medium:	       ('fira-medium', arial, roboto, Helvetica, sans-serif),
-        family-semibold:       ('fira-semibold', arial, roboto, Helvetica, sans-serif),
-        family-bold:           ('fira-bold', arial, roboto, Helvetica, sans-serif),
-        family-material:       ('material-icons'),
-        size-small:            .6rem,
-        size-regular:          .75rem,
-);
 
-$size: (
-        regular:               .75rem,
-        default:               1rem,
-        medium:                1.25rem
-);
-
-$breakpoint: (
-        step-min:              25rem,
-        step-one:              30rem,
-        step-two:              50rem,
-        step-three:            62rem,
-        step-max:              80rem
-);
-
-
-$color: (
+$color-light: (
         primary:               rgb(32,32,32),
         secondary:             rgba(219,239,88,1),
         tertiary:              #6ef718,
@@ -39,24 +14,19 @@ $color: (
         button-secondary:      rgba(230,179,255,.5),
         button-delete:         rgba(255,51,85, 1),
         button-cancel:         rgba(219,239,88,.15),
-        button-text-primary:   rgba(32,32,32),
-        button-text-inverse:   rgba(32,32,32),
 
         button-primary-hover:  rgba(219,239,88,.5),
         button-secondary-hover:rgba(230,179,255,.25),
         button-delete-hover:   rgba(255,51,85, .5),
         button-cancel-hover:   rgba(219,239,88,.5),
 
-        heading-1:             rgb(240,240,240),
-        heading-2:             rgb(240,240,240),
+        heading-1:             rgb(32,32,32),
+        heading-2:             rgb(32,32,32),
         link:                  rgb(0,0,0),
-        body-text:             rgb(240,240,240),
+        body-text:             rgb(32,32,32),
         body-text-inverse:     rgb(242,241,242),
         footer-bg:             rgba(32,32,32, .925),
-        footer-text:           rgb(229,204,225),
-
-        nav-icons-primary:     rgba(230,179,255,.5),
-        nav-icons-secondary:   rgba(219,239,88,.5),
+        footer-txt:            rgb(255,255,255),
 
         border-dark:           rgb(32,32,32),
         border-light:          rgb(229,204,225),
@@ -67,6 +37,3 @@ $color: (
 
         bg-fancy-lilac:        linear-gradient(135deg,rgba(127,0,255,.75) -25%,rgba(127,0,255, .35) 150%)
 );
-
-
-

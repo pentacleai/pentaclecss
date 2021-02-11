@@ -8,7 +8,7 @@ button {
 
   &.primary {
     background-color: _color(button-primary);
-    color: _color(body-text);
+    color: _color(button-text-primary);
 
     &:hover {
       background-color: _color(button-primary-hover);
@@ -17,7 +17,7 @@ button {
 
   &.primary-gradient {
     background: _color(bg-fancy-lilac);
-    color: _color(body-text-inverse);
+    color: _color(button-text-gradient);
 
     &:hover {
       background-color: _color(button-gradient-hover);
@@ -26,7 +26,7 @@ button {
 
   &.secondary {
     background-color: _color(button-secondary);
-    color: _color(body-text);
+    color: _color(button-text-secondary);
 
     &:hover {
       background-color: _color(button-secondary-hover);
@@ -43,7 +43,7 @@ button {
 
   &.delete {
     background-color: _color(button-delete);
-    color: _color(body-text-inverse);
+    color: _color(button-text-inverse);
 
     &:hover {
       background-color: _color(button-delete-hover);

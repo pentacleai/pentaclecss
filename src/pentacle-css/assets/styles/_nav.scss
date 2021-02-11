@@ -2,21 +2,31 @@ nav {
   box-sizing: border-box;
   line-height: 1rem;
 
+  ul.primary  {
+    .material-icons {
+      color: _color(nav-icons-primary);
+    }
+  }
+
   ul li a {
     color: _color(link);
   }
 
   &.full-width {
     width: 100%;
+    width: 100%;
   }
 
   ul.secondary {
     margin-left: 1.5rem;
+    .material-icons {
+      color: _color(nav-icons-secondary);
+    }
   }
 
   li {
     list-style: none;
-    display: inline;
+    display: inline !important;
     margin-right: 2.5rem!important;
 
 
