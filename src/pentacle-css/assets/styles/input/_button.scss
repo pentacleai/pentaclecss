@@ -7,6 +7,10 @@ button {
   border: none;
   line-height: 1.5rem;
 
+  &.small {
+    padding: .15rem .5rem;
+  }
+
   &.button-link {
     background-color: transparent;
     color: _color(button-link);
@@ -33,7 +37,6 @@ button {
   }
 
   &.secondary {
-    padding: .275rem .75rem !important;
     background-color: _color(button-secondary);
     color: _color(button-text-secondary);
 

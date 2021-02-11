@@ -17,8 +17,8 @@ $size: (
 
 $breakpoint: (
         step-min:              320px,
-        step-one:              30rem,
-        step-two:              50rem,
+        step-one:              400px,
+        step-two:              800px,
         step-three:            62rem,
         step-max:              80rem
 );
@@ -31,7 +31,7 @@ $color: (
         tertiary:              rgba(110, 247, 24, 1),
         bg:                    rgb(230,230,230),
         fancy:                 rgb(109,104,224),
-        box-bg:                rgba(20,20,30, .5),
+        box-bg:                rgba(20,20,30, .75),
 
         bg-box-secondary:      rgba(230,179,255,.5),
         bg-60:                 rgba(255,255,255,.6),

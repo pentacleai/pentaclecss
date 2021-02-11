@@ -8,11 +8,8 @@
   }
 }
 
-@media only screen and (max-width: _breakpoint(step-two)) {
+@media only screen and (min-width: _breakpoint(step-one)) {
   .box {
-    margin-top: 1rem;
-    &:first-child {
-      margin-top: 0;
-    }
+    margin-bottom: 1rem;
   }
 }
