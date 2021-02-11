@@ -8,7 +8,9 @@ nav {
 
   ul li a {
     color: _color(link);
-
+    &:hover {
+      color: _color(button-secondary-hover);
+    }
   }
 
   &.full-width {
@@ -25,18 +27,20 @@ nav {
     margin-right: 2.5rem!important;
 
 
-    a {
-      border-radius: 2rem;
-      background-color: _color(button-secondary);
-      padding: .5rem 1.5rem;
-      &:hover {
-        background-color: _color(button-secondary-hover);
-      }
-    }
+
 
     &:last-of-type {
       margin-right: 0!important;
       background-color: transparent;
+    }
+  }
+}
+
+footer {
+  a {
+    color: _color(button-secondary-hover) !important;
+    &:hover {
+      background-color: _color(button-secondary-hover);
     }
   }
 }
