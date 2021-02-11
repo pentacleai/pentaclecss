@@ -5,6 +5,7 @@ button {
   font-family: _font(family-regular);
   letter-spacing: .0125rem;
   border: none;
+  line-height: 1.5rem;
 
   &.primary {
     background-color: _color(button-primary);
@@ -25,11 +26,17 @@ button {
   }
 
   &.secondary {
+    padding: .185rem .75rem !important;
     background-color: _color(button-secondary);
     color: _color(button-text-secondary);
 
     &:hover {
       background-color: _color(button-secondary-hover);
+    }
+
+    .material-icons {
+      font-size: 1rem;
+      padding-right: .25rem !important;
     }
   }
 
