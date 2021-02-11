@@ -7,11 +7,15 @@ table {
   th, td {
     text-align: left;
     font-weight: unset;
+    padding: .5rem;
+  }
+
+  td {
   }
 
   thead {
     th {
-      border-bottom: 1px solid _color(border-dark);
+      border-bottom: 1px solid _color(border-th);
       color: _color(heading-2);
       font-family: _font(family-medium);
       padding-bottom: .5rem;
@@ -21,7 +25,7 @@ table {
   tbody {
     tr {
       td {
-        border-bottom: 1px solid _color(border-dark);
+        border-bottom: 1px solid _color(border-td);
       }
       &:last-child {
         td {
