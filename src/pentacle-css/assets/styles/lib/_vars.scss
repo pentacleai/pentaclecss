@@ -27,8 +27,10 @@ $breakpoint: (
 $color: (
         primary:               rgb(32,32,32),
         secondary:             rgba(219,239,88,1),
-        tertiary:              #6ef718,
+        tertiary:              rgba(110, 247, 24, 1),
         bg:                    rgb(230,230,230),
+        box-bg:                rgb(32,32,32),
+        box-border:            rgba(219,239,88,.08),
         bg-box-secondary:      rgba(230,179,255,.5),
         bg-60:                 rgba(255,255,255,.6),
         bg-describe:           rgba(127,0,255,.05),

@@ -1,7 +1,7 @@
 .box {
-  border: 1px solid _color(border-dark);
-  background-color: _color(bg-60);
-  border-radius: 1rem;
+  border: 1px solid _color(box-border);
+  background-color: _color(box-bg);
+  border-radius: .25rem;
 
   &.solid {
     background-color: _color(bg-box-secondary);
