@@ -2,14 +2,9 @@ nav {
   box-sizing: border-box;
   line-height: 1rem;
 
-  ul.primary  {
-    .material-icons {
-      color: _color(nav-icons-primary);
-    }
-  }
-
   ul li a {
     color: _color(link);
+
   }
 
   &.full-width {
@@ -17,10 +12,10 @@ nav {
     width: 100%;
   }
 
-  ul.secondary {
+  ul {
     margin-left: 1.5rem;
     .material-icons {
-      color: _color(nav-icons-secondary);
+      color: _color(nav-icons-primary);
     }
   }
 
@@ -32,8 +27,11 @@ nav {
 
     a {
       border-radius: 2rem;
-      background-color: _color(bg-input);
+      background-color: _color(button-secondary);
       padding: .5rem 1.5rem;
+      &:hover {
+        background-color: _color(button-secondary-hover);
+      }
     }
 
     &:last-of-type {
