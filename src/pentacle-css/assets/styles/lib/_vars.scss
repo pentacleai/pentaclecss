@@ -25,12 +25,14 @@ $breakpoint: (
 
 
 $color: (
-        primary:               rgb(32,32,32),
+        primary:               rgb(10,10,40),
+        bg-primary:            rgb(7,6,27),
         secondary:             rgba(219,239,88,1),
         tertiary:              rgba(110, 247, 24, 1),
         bg:                    rgb(230,230,230),
-        box-bg:                rgb(32,32,32),
-        box-border:            rgba(219,239,88,.08),
+        fancy:                 rgb(109,104,224),
+        box-bg:                rgb(20,20,30),
+        box-border:            rgba(219,239,88,.1),
         bg-box-secondary:      rgba(230,179,255,.5),
         bg-60:                 rgba(255,255,255,.6),
         bg-describe:           rgba(127,0,255,.05),
