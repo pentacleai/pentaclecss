@@ -2,6 +2,10 @@ nav {
   box-sizing: border-box;
   line-height: 1rem;
 
+  .material-icons {
+    color: _color(nav-icons-primary)!important;
+  }
+
   ul li a {
     color: _color(link);
 
@@ -9,19 +13,15 @@ nav {
 
   &.full-width {
     width: 100%;
-    width: 100%;
   }
 
-  ul {
+  ul.secondary {
     margin-left: 1.5rem;
-    .material-icons {
-      color: _color(nav-icons-primary);
-    }
   }
 
   li {
     list-style: none;
-    display: inline !important;
+    display: inline;
     margin-right: 2.5rem!important;
 
 
