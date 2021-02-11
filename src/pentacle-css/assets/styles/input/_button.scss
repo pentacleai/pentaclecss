@@ -1,5 +1,5 @@
 button {
-  padding: .5rem 1rem;
+  padding: .35rem .75rem;
   border-radius: 1.5rem;
   font-size: .75rem;
   font-family: _font(family-regular);
@@ -26,7 +26,7 @@ button {
   }
 
   &.secondary {
-    padding: .185rem .75rem !important;
+    padding: .275rem .75rem !important;
     background-color: _color(button-secondary);
     color: _color(button-text-secondary);
 

@@ -1,6 +1,12 @@
 input {
   font-size: _size(regular);
 
+
+  &[type=text], &[type=number] {
+    padding: .5rem;
+    width: 100%;
+  }
+
   &:-moz-focusring {
     outline: 3px solid lightblue;
   }
@@ -28,7 +34,5 @@ input {
     -webkit-appearance: checkbox;
   }
 
-  &[type=text] {
-    padding: .5rem;
-  }
+
 }
