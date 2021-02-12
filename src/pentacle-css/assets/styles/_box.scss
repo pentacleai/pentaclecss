@@ -2,6 +2,7 @@
   border: 1px solid _color(border-box);
   background-color: _color(box-bg);
   border-radius: .25rem;
+ box-sizing: border-box;
 
   &.solid {
     background-color: _color(bg-box-secondary);
