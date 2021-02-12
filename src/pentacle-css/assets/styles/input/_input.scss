@@ -2,7 +2,8 @@ input {
   font-size: _size(regular);
 
 
-  &[type=text], &[type=number], select {
+
+  &[type=text], &[type=number] {
     padding: .5rem;
     //width: 100%;
   }
