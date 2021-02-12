@@ -4,12 +4,13 @@
   border-radius: .25rem;
  box-sizing: border-box;
 
+  &.feature {
+    background-color: _color(box-feature-bg);
+  }
+
   &.solid {
     background-color: _color(bg-box-secondary);
   }
-
-
-
 }
 
 @media only screen and (min-width: _breakpoint(step-one)) {
