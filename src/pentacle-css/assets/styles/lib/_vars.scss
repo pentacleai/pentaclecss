@@ -33,11 +33,13 @@ $color: (
         fancy:                 rgb(109,104,224),
         box-bg:                rgba(20,20,30, .75),
 
+        bg-box:                rgba(255,255,255,.6),
         bg-box-secondary:      rgba(230,179,255,.5),
         bg-60:                 rgba(255,255,255,.6),
         bg-describe:           rgba(127,0,255,.05),
         bg-input:              rgba(230,179,255,.5),
         bg-highlight:          rgba(219,239,88,.15),
+
 
         button-primary:        rgba(219,239,88,1),
         button-link:           rgba(219,239,88,1),
@@ -57,6 +59,8 @@ $color: (
         link:                  rgb(0,0,0),
         body-text:             rgb(240,240,240),
         body-text-inverse:     rgb(242,241,242),
+        modal-text:            rgb(240,240,240),
+
         footer-bg:             rgba(32,32,32, .925),
         footer-text:           rgb(229,204,225),
 
