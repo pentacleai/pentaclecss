@@ -1,0 +1,14 @@
+dl {
+  font-size: _font(size-regular);
+
+  dt {
+    font-family: _font(family-bold);
+    color: _color(body-text);
+    display: inline-block;
+  }
+  dd {
+    font-family: _font(family-light);
+    color: _color(body-text);
+    display: inline-block;
+  }
+}
