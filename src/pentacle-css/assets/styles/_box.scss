@@ -6,6 +6,7 @@
 
   &.feature {
     background-color: _color(box-feature-bg);
+    border: 3px solid _color(border-box-feature);
   }
 
   &.solid {

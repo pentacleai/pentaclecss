@@ -19,7 +19,7 @@ button {
   line-height: 1.5rem;
 
   &.small {
-    padding: .15rem .5rem;
+    padding: .25rem .75rem;
   }
 
   &.button-link {
@@ -30,11 +30,12 @@ button {
   }
 
   &.primary {
-    background-color: _color(button-primary);
-    color: _color(button-text-primary);
+    border: 1px solid _color(button-primary);
+    background: none;
+    color: _color(button-primary);
 
     &:hover {
-      background-color: _color(button-primary-hover);
+      border: 1px solid _color(button-primary-hover);
     }
   }
 
@@ -58,6 +59,15 @@ button {
     .material-icons {
       font-size: 1rem;
       padding-right: .25rem !important;
+    }
+  }
+
+  &.tertiary {
+    background-color: _color(button-tertiary);
+    color: _color(button-text-tertiary);
+
+    &:hover {
+      background-color: _color(button-tertiary-hover);
     }
   }
 
