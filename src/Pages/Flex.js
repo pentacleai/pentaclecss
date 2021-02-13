@@ -26,6 +26,15 @@ class Flex extends Component {
             </section>
 
             <section>
+                <h2>flex-group space-between</h2>
+                <article className={"flex-group space-between"}>
+                    <div className={"box"}><p>Hello</p></div>
+                    <div className={"box"}><p>Hello</p></div>
+                    <div className={"box"}><p>Hello</p></div>
+                </article>
+            </section>
+
+            <section>
                 <h2 className={"align-right"}>flex-group flex-end</h2>
                 <article className={"flex-group flex-end"}>
                     <div className={"box"}><p>Hello</p></div>

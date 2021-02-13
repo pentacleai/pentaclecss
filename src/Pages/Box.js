@@ -7,7 +7,7 @@ class Box extends Component {
         return <Layout>
             <h1>Box</h1>
             <section>
-               <article className={"box"}><p>I am a box</p></article>
+               <article className={"box padding-1"}><p>I am a box</p></article>
             </section>
             <Gist gist="15da639fed2af58f211933a48afd8299" />
         </Layout>;

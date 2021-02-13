@@ -1,8 +1,9 @@
 .box {
-  border: 1px solid _color(border-box);
   background-color: _color(box-bg);
+  border: 1px solid _color(border-box);
   border-radius: .25rem;
- box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1rem;
 
   &.feature {
     background-color: _color(box-feature-bg);
