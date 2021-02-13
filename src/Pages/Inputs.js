@@ -13,7 +13,9 @@ class Inputs extends Component {
                 <button className={"primary"}>Primary</button>
                 <button className={"primary-gradient"}>Gradient primary</button>
                 <button className={"secondary"}>Secondary</button>
+                <button className={"tertiary"}>Tertiary</button>
                 <button className={"cancel"}>Cancel</button>
+                <button className={"link"}>Link</button>
                 <button className={"delete"}>Delete</button>
                 <Gist gist="0993d5c23318d2aa6bd9e2f1a32d3765"/>
             </article>
@@ -54,7 +56,7 @@ class Inputs extends Component {
             <article>
                 <h2>Select</h2>
                 <label htmlFor="pet-select">Favourite pet</label>
-                <select name="pets" id="pet-select">
+                <select name="pets" id="pet-select" className="select-fancy">
                     <option value="">Choose a pet</option>
                     <option value="dog">Dog</option>
                     <option value="cat">Cat</option>
