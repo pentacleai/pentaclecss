@@ -6,7 +6,7 @@ class Inputs extends Component {
     render() {
         return <Layout>
             <h1>Inputs</h1>
-            <p class={"describe"}>This page is WIP</p>
+            <p className={"describe"}>This page is WIP</p>
             <article>
                 <h2>Buttons</h2>
                 <button>Button no class</button>

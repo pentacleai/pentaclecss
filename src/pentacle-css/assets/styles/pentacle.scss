@@ -1,12 +1,22 @@
+
+body {
+
+}
+
+@import 'themes/neon';
+//@import 'themes/dark';
+@import 'themes/light';
+
 @import 'lib/vars';
 @import 'lib/functions';
+@import 'typography/fonts';
+
 @import 'utility/gist';
 
 @import 'body';
 @import 'box';
 
 @import 'flex';
-@import 'fonts';
 @import 'footer';
 @import 'header';
 @import 'image';
@@ -43,3 +53,5 @@
 @import 'widgets/modal';
 
 @import 'animations/spinner';
+
+

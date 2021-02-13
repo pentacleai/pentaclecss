@@ -7,7 +7,7 @@ const Layout = ({children}) => {
     return (
         <>
             <Header/>
-            <Navigation/>
+
             <main>{children}</main>
             <footer>
                 <article className={"footer-content"}>
