@@ -16,6 +16,7 @@ $color: (
         bg-header:             rgb(10,10,40),
         bg-describe:           rgba(230,179,255,.5),
         bg-input:              rgba(230,179,255,.5),
+        border-input:          rgba(230,179,255,.5),
         bg-highlight:          rgba(219,239,88,.15),
 
         button-primary:        rgba(127,0,255,1),
@@ -25,6 +26,7 @@ $color: (
         button-cancel:         rgba(255,128,255, .1),
 
         button-text-primary:   rgb(230,230,230),
+        button-text-gradient:  rgb(230,230,230),
         button-text-secondary: rgb(255,255,255),
         button-text-tertiary:  rgb(10,10,40),
         button-text-delete:    rgb(255,255,255),

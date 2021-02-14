@@ -3,11 +3,12 @@ input {
   border: 1px solid _color(border-input);
 
   &[type=text], &[type=number] {
-    padding: .5rem;
+    padding: .35rem .75rem;
+    font-size: _font(size-regular);
   }
 
   &:-moz-focusring {
-    outline: 3px solid lightblue;
+    outline: 3px solid _color(border-input);
   }
 
   &[type=number] + select {
