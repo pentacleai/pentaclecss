@@ -14,6 +14,10 @@
   @return val($size, $keys...);
 }
 
+@function _width($keys...) {
+  @return val($width, $keys...);
+}
+
 
 @function val($map, $keys...) {
   @each $key in $keys {

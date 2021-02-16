@@ -41,6 +41,10 @@ table, p, li, em, div, input {
   padding: 0;
 }
 
+p + p {
+  margin-top: .5rem;
+}
+
 main {
   a, a:active, a:visited {
     color: _color(link);
