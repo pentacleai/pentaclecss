@@ -38,10 +38,10 @@ function Main() {
                 <article>
                     <h2>About</h2>
                     <p>By day I'm a consultant specialising in refactoring bootstrap and other crufty ui libs out of
-                        enterprise software systems at banks and FTSE100 companies, and putting in custom sass libraries.</p>
+                        enterprise software systems at banks and FTSE100 companies, and putting in custom sass libraries and hand-rolled js components.</p>
                     <p>A reduction in often unnecessary design complexity gives large rewards in ease of use, accessibility and performance.</p>
                     <p>This incarnation of the library is a new work in progress, however none of the selector names will change as standard html element naming conventions are used.</p>
-                    <p>I am currently writing sass functions and working on theming so people can change overall sizing and colour themes by switching just a few sets of variables.</p>
+                    <p>I am currently writing sass functions and working on theming so people can change overall sizing and colour themes by switching one or two sets of variables.</p>
                 </article>
                 <article className={"margin-top-2"}>
                     <p>
@@ -50,6 +50,7 @@ function Main() {
                     </p>
                     <p>Get the <a href={"https://www.npmjs.com/package/pentacle-css"} target={"_blank"}
                                   rel="noopener noreferrer">npm</a></p>
+
                 </article>
             </section>
         </Layout>

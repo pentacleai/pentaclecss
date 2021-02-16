@@ -10,7 +10,9 @@ const Layout = ({children}) => {
             <main>{children}</main>
             <footer>
                 <article className={"footer-content"}>
-                    © 2019 - {new Date().getFullYear()} <a href={"https://github.com/pentacleai"}>Pentacle</a> |  <a href={"https://www.npmjs.com/package/pentacle-css"}>npmjs</a>
+                    © 2019 - {new Date().getFullYear()} <a href={"https://github.com/pentacleai"}>github</a>
+                    | <a href={"https://www.npmjs.com/package/pentacle-css"}>npm</a>
+                    | <a href={"https://pentacle.substack.com"} target={"_blank"} rel="noopener noreferrer">substack</a>
                 </article>
             </footer>
         </>
