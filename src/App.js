@@ -10,7 +10,6 @@ import Typography from "./Pages/Typography";
 import Fonts from "./Pages/Fonts";
 import LayoutPage from "./Pages/Layout";
 
-
 class App extends Component {
     render() {
         return (

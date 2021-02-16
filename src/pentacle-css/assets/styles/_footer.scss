@@ -15,9 +15,6 @@ footer {
 
 footer {
   a {
-    color: _color(button-secondary) !important;
-    &:hover {
-      background-color: _color(button-secondary-hover);
-    }
+    color: _color(footer-link);
   }
 }

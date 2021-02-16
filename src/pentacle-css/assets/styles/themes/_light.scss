@@ -1,7 +1,7 @@
 
 $color: (
         primary:               rgba(127,0,255,.5),
-        bg:                    rgb(230,230,230),
+        bg:                    rgb(255,255,255),
         secondary:             rgba(219,239,88,1),
         secondary-tr:          rgba(219,239,88,.01),
         tertiary:              rgba(110, 247, 24, 1),
@@ -41,8 +41,9 @@ $color: (
         body-text-inverse:     rgba(240,240,240),
         modal-text:            rgb(240,240,240),
 
-        footer-bg:             rgba(32,32,32, .925),
-        footer-text:           rgb(229,204,225),
+        footer-bg:             rgb(255,255,255),
+        footer-text:           rgb(32,32,32),
+        footer-link:           rgb(127,0,255),
 
         nav-icons-primary:     rgb(255,128,255),
         nav-icons-secondary:   rgba(219,239,88,.5),
