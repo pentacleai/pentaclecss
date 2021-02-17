@@ -37,7 +37,7 @@ function Main() {
                 </article>
                 <article>
                     <h2>About</h2>
-                    <p>A reduction in unnecessary design complexity give rewards in ease of use,
+                    <p>A reduction in design complexity give rewards in ease of use,
                         accessibility and performance – for developers and people who use the software they write.</p>
                     <p>I write away bootstrap and third-party ui plugins from enterprise software at banks and FTSE100 companies, and put in custom sass libraries
                         and hand-rolled js components.</p>
