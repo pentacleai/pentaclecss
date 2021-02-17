@@ -46,7 +46,7 @@ function Main() {
                     <h2>Roadmap</h2>
                     <p>This incarnation of the library is a new work in progress (Feb 2021), however none of the
                         selector names
-                        will change as standard html element naming conventions are used.</p>
+                        will change, as standard html element naming conventions are used.</p>
                     <p>
                         <a href={"https://trello.com/b/3ZPKFldK/pentacle-css"} target={"_blank"}
                                     rel="noopener noreferrer">Take a look at the board</a>
