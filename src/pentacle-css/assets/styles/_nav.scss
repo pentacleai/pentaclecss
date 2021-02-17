@@ -1,38 +1,26 @@
 nav {
   box-sizing: border-box;
 
-  .material-icons {
-    color: _color(nav-icons-primary)!important;
-  }
-
-  ul li a {
-    color: _color(link);
-    &:hover {
-      color: _color(button-secondary-hover);
-    }
-  }
-
-  &.full-width {
-    width: 100%;
-  }
-
-  ul.secondary {
-    margin-left: 1.5rem;
-  }
-
   li {
     list-style: none;
     display: inline;
-    margin-right: 2.5rem!important;
-
-
-
+    margin-right: 2.5rem;
 
     &:last-of-type {
-      margin-right: 0!important;
-      background-color: transparent;
+      margin-right: 0;
+    }
+
+    a {
+      color: _color(nav-link);
+
+      &:hover {
+        color: _color(nav-link-hover);
+      }
     }
   }
+
+  .material-icons {
+    color: _color(nav-icons-primary);
+  }
+
 }
-
-

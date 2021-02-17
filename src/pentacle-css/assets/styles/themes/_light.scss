@@ -36,19 +36,23 @@ $color: (
         heading-1:             rgb(240,240,240),
         heading-2:             rgb(240,240,240),
 
-        link:                  rgb(0,0,0),
+        link:                  rgb(127,0,255),
         body-text:             rgba(32,32,32),
         body-text-inverse:     rgba(240,240,240),
         modal-text:            rgb(240,240,240),
 
-        footer-bg:             rgb(255,255,255),
-        footer-text:           rgb(32,32,32),
-        footer-link:           rgb(127,0,255),
+        bg-footer:             rgb(255,255,255),
+        text-footer:           rgb(32,32,32),
+        link-footer:           rgb(127,0,255),
 
+        nav-link:              rgb(32,32,32),
         nav-icons-primary:     rgb(255,128,255),
         nav-icons-secondary:   rgba(219,239,88,.5),
 
-        border-dark:           rgb(32,32,32),
+        border-header:         rgba(127,0,255,1),
+        border-footer:         rgb(32,32,32),
+
+        border-primary:        rgb(32,32,32),
         border-light:          rgb(229,204,225),
         border-th:             rgba(230,179,255,.25),
         border-td:             rgba(230,179,255,.15),

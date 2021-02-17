@@ -1,20 +1,20 @@
 footer {
   position: fixed;
   bottom: 0;
-  background-color: _color(footer-bg);
-  border-top: 1px solid _color(border-dark);
+  background-color: _color(bg-footer);
+  border-top: 1px solid _color(border-footer);
+  font-size: .75rem;
+  //color: _color(footer-text);
   width: 100%;
-  color: _color(footer-text);
+  a {
+    color: _color(link);
+  }
 }
 
 .footer-content {
-  font-size: .75rem;
-  color: _color(footer-txt);
   padding: 1rem 2rem;
 }
 
 footer {
-  a {
-    color: _color(footer-link);
-  }
+
 }
