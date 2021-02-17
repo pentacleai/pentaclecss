@@ -11,8 +11,10 @@ const Layout = ({children}) => {
             <footer>
                 <article className={"footer-content flex-group space-between"}>
                     <div>
-                        © 2019 - {new Date().getFullYear()} <a href={"https://github.com/pentacleai"}>github</a>
-                        | <a href={"https://www.npmjs.com/package/pentacle-css"}>npm</a>
+                        © 2019 - {new Date().getFullYear()} <a href={"https://github.com/pentacleai"} target={"_blank"}
+                                                               rel="noopener noreferrer">github</a>
+                        | <a href={"https://www.npmjs.com/package/pentacle-css"} target={"_blank"}
+                             rel="noopener noreferrer">npm</a>
                         | <a href={"https://pentacle.substack.com"} target={"_blank"}
                              rel="noopener noreferrer">substack</a>
                         | <a href={"https://twitter.com/pentacleai"} target={"_blank"}

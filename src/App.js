@@ -39,8 +39,7 @@ function Main() {
                     <h2>About</h2>
                     <p>A reduction in unnecessary design complexity give rewards in ease of use,
                         accessibility and performance – for the dev team and end users.</p>
-                    <p>I specialise in writing away bootstrap and third party ui plugins out of
-                        enterprise software systems at banks and FTSE100 companies, and putting in custom sass libraries
+                    <p>I write bootstrap and third party ui plugins out of enterprise software at banks and FTSE100 companies, and put in custom sass libraries
                         and hand-rolled js components.</p>
                 </article>
                 <article>
