@@ -6,8 +6,6 @@ class LayoutPage extends Component {
     render() {
         return <Layout>
             <h1>Layout</h1>
-            <p>You can find the repo for this style guide, which includes react page components at <a
-                href={"https://github.com/pentacleai/pentacle-css"}>Github</a></p>
             <h2>Page structure guidelines</h2>
             <ul>
                 <li>html</li>
