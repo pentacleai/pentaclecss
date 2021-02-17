@@ -19,8 +19,8 @@ const Layout = ({children}) => {
                              rel="noopener noreferrer">twitter</a>
                     </div>
                     <div>
-                        <a href={"https://twitter.com/pentacleai"} target={"_blank"}
-                           rel="noopener noreferrer">donate</a>
+                        {/*<a href={"https://twitter.com/pentacleai"} target={"_blank"}*/}
+                        {/*   rel="noopener noreferrer">donate</a>*/}
                     </div>
                 </article>
             </footer>
