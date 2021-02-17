@@ -29,7 +29,7 @@ class App extends Component {
 function Main() {
     return <>
         <Layout>
-            <section class={"editorial-content"}>
+            <section className={"editorial-content"}>
                 <h1>Hello</h1>
                 <article>
                     <p>Pentacle CSS is super simple css library written in sass.</p>
